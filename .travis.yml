@@ -1,6 +1,7 @@
-os: osx
+#os: osx
+dist: focal
+group: dev
 install: skip
 
 script:
 - uname -a
-- ssh -vvv mooltipass-tests.com -p54433
