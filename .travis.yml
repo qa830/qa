@@ -7,4 +7,4 @@ install: skip
 script:
 - uname -a
 - uname
-- apt update -y
+- sudo apt update -y
