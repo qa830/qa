@@ -1,6 +1,6 @@
 #os: osx
-dist: focal
-# dist: bionic
+# dist: focal
+dist: bionic
 group: dev
 
 install: skip
