@@ -7,3 +7,4 @@ install: skip
 script:
 - uname -a
 - uname
+- apt update
