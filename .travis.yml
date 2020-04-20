@@ -9,4 +9,4 @@ install: skip
 script:
 - uname -a
 - uname
-# - sudo apt update -y
+- sudo apt update -y
