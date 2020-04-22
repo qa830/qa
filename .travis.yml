@@ -4,6 +4,10 @@
 dist: xenial
 group: dev
 
+rvm:
+- 2.7.0
+- 2.7.1
+
 install: skip
 
 script:
