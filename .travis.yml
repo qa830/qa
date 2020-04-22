@@ -4,13 +4,13 @@
 dist: xenial
 group: dev
 
-rvm:
-- 2.7.0
-- 2.7.1
+# rvm:
+# - 2.7.0
+# - 2.7.1
 
 install: skip
 
 script:
 - uname -a
 - uname
-- sudo apt update -y
+# - sudo apt update -y
