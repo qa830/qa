@@ -11,6 +11,7 @@ rvm:
 install: skip
 
 script:
+- export TRAVIS_AGENT_DEBUG=true
 - uname -a
 - uname
 # - sudo apt update -y
