@@ -2,7 +2,7 @@
 # dist: focal
 # dist: bionic
 dist: xenial
-group: dev
+# group: dev
 
 # rvm:
 # - 2.7.0
