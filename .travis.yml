@@ -1,7 +1,7 @@
 #os: osx
-# dist: focal
+dist: focal
 # dist: bionic
-dist: xenial
+# dist: xenial
 group: dev
 
 # rvm:
@@ -11,7 +11,7 @@ group: dev
 install: skip
 
 script:
-- export TRAVIS_AGENT_DEBUG=true
+# - export TRAVIS_AGENT_DEBUG=true
 - uname -a
-- uname
+- ruby -v
 # - sudo apt update -y
