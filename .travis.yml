@@ -71,10 +71,13 @@ jobs:
   include:
     - dist: xenial
       language: ruby
-      name: Xenial
+      name: Xenial-full
     - dist: xenial
       language: minimal
       name: Xenial-minimal
+    - dist: xenial
+      language: generic
+      name: Xenial-generic
     - dist: bionic
       language: minimal
       name: Bionic-minimal
