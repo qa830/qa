@@ -24,6 +24,7 @@ script:
 - ruby -v
 - docker run hello-world
 - cat /etc/hosts
+- cat /etc/os-release
 # - dd if=/dev/zero of=file.txt count=1024 bs=30M
 # - __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
 # - sleep 60
